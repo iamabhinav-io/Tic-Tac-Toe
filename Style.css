@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(210, 233, 236);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+.part1{
+    display: flex;
+    justify-content: center;    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid black;
+    padding: 2rem;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,8rem);
+    grid-template-rows: repeat(3,8rem);
+    gap: 0.5rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    /* border: 2px solid black; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box{
+    background-color: bisque;
+    height: 8rem;
+    width: 8rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: red;
+    font-weight: 900;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
